@@ -1,7 +1,7 @@
 {
   "name": "grunt-phantomcss-tr",
   "description": "Plugin to do CSS regression testing via PhantomCSS. Forked from micahgodbolt/grunt-phantomcss",
-  "version": "0.3.3",
+  "version": "0.3.4git commit -a m ",
   "homepage": "https://github.com/mrClapham/grunt-phantomcss",
   "author": {
     "name": "Graham Clapham",
