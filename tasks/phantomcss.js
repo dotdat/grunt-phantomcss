@@ -156,6 +156,7 @@ module.exports = function(grunt) {
         // Resolve paths for tests
         options.test = [];
         this.filesSrc.forEach(function(filepath) {
+           // options.test.push(path.resolve(filepath));
             options.test.push(path.resolve(filepath));
         });
 
