@@ -157,7 +157,7 @@ module.exports = function(grunt) {
         options.test = [];
         this.filesSrc.forEach(function(filepath) {
            // options.test.push(path.resolve(filepath));
-            options.test.push(path.resolve(filepath));
+            options.test.push(filepath);
         });
 
         options.screenshots = path.resolve(options.screenshots);
