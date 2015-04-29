@@ -179,6 +179,7 @@ module.exports = function(grunt) {
         grunt.util.spawn({
             cmd: phantomBinaryPath,
             args: [
+                '--ssl-protocol=any',
                 runnerPath,
                 JSON.stringify(options),
             ],
