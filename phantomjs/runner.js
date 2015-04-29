@@ -63,6 +63,10 @@ phantomcss.init({
   }
 });
 
+if(args.disableAnimations) {
+  phantomcss.turnOffAnimations();
+}
+
 // Run the test scenarios
 args.test.forEach(function(testSuite) {
   require(testSuite);
